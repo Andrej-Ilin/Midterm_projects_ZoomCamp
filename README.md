@@ -23,7 +23,7 @@ https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification?se
 ### Loading the model and serving it via a web serice with Flask
 [predict.py](https://github.com/Andrej-Ilin/Midterm_projects_ZoomCamp/blob/main/my_first_project/predict.py)
 
-[Dockerfile](https://github.com/Andrej-Ilin/Midterm_projects_ZoomCamp/blob/main/my_first_project/Dockerfile)
+[Dockerfile](https://github.com/Andrej-Ilin/Midterm_projects_ZoomCamp/blob/main/my_first_project/Dockerfile)  - *If you are using Linux, you should change the line to <ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]> in Dockerfile*
 
 
 
