@@ -1,5 +1,5 @@
 # Mobile Price Classification
-## classify mobile price range
+## classify mobile price range and description of the problem
 About Dataset
 Context
 Bob has started his own mobile company. He wants to give tough fight to big companies like Apple,Samsung etc.
@@ -13,6 +13,19 @@ In this problem you do not have to predict actual price but a price range indica
 This is the target variable with value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).
 
 https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification?select=train.csv
+
+### Data preparation and data clearning , EDA, feature importance analysis, Model selection process and parameter tuning.
+[05-train-price-model.ipynb](https://github.com/Andrej-Ilin/Midterm_projects_ZoomCamp/blob/main/my_first_project/05-train-price-model.ipynb)
+
+### Training the final model and saving it to a file (e.g. pickle)
+[train.py](https://github.com/Andrej-Ilin/Midterm_projects_ZoomCamp/blob/main/my_first_project/train.py)
+
+### Loading the model and serving it via a web serice with Flask
+[predict.py](https://github.com/Andrej-Ilin/Midterm_projects_ZoomCamp/blob/main/my_first_project/predict.py)
+
+[Dockerfile](https://github.com/Andrej-Ilin/Midterm_projects_ZoomCamp/blob/main/my_first_project/Dockerfile)
+
+
 
   # *Instuction for run*
 
