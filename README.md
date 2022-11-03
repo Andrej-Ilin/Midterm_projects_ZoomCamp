@@ -19,11 +19,15 @@ https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification?se
 - go to the my_first_project folder on the command line
 
 $ docker build -t zoomcamp-test .
+
 $ docker run -it --rm -p 9696:9696 zoomcamp-test
 
 - run your jupyter notebook and run next line in:
+__________________________________________
 import requests
+__________________________________________
 url = "http://localhost:9696/predict"
+__________________________________________
 customer = {
             "battery_power": 1043.0,
             "blue": 1.0,
@@ -46,5 +50,7 @@ customer = {
             "touch_screen": 1.0,
             "wifi": 0.0
            }
+___________________________________________
 response = requests.post(url, json=customer).json()
 response
+__________________________________________
