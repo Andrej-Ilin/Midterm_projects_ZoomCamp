@@ -30,6 +30,7 @@ https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification?se
   # *Instuction for run*
 
 - go to the my_first_project folder on the command line
+$ pip install pipenv
 
 $ docker build -t zoomcamp-test .
 
